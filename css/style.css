@@ -1,6 +1,7 @@
 html {
-  background-image: url(images/giphy12.gif);
+  background-image: url(images/sna.gif);
   background-size: cover;
+
 }
   html, body {
     margin: 0;
@@ -17,7 +18,8 @@ html {
   #board {
     width: 400px;
     height: 400px;
-    background-color: white;
+    background-color: black;
+    opacity: 0.7;
     /*background-image: url(images/giphy1.gif);*/
     background-size: cover;
     margin: 0;
@@ -30,24 +32,27 @@ html {
     float: left;
   }
   #board div.alive {
-    background-image: url(images/giphy3.gif);
+    background-color: white;
+    /*background-image: url(images/smoke.gif);*/
     /*background: url(snakebg.gif);*/
   }
   #board div:hover {
     background: blue;
   }
   #board div.food {
-    background-image: url(images/fish.gif);
-    background-size: cover;
+    /*background-color: white;*/
+    background-image: url(images/starr.svg);
+    background-size: cover;*/
     /*background: #4286f4;*/
   }
   #porthole {
-    margin: 50px auto;
-    padding: 69px;
+    margin: 20px auto;
+    padding: 10px;
     width: 400px;
     height: 400px;
-    background: url(images/porthole.png) no-repeat;
-    background-size: cover;
+    /*border: 10px solid white;*/
+    /*background: url(images/porthole.png) no-repeat;
+    background-size: cover;*/
   }
 
  #message {
